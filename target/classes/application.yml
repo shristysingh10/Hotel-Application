@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/hotel
+    username: root
+    password: root@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate.ddl-auto: update
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 611203950966-mphjloq4uh7rralds4qpbh6fpf7k4f5q.apps.googleusercontent.com
+            client-secret: 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
+server:
+  port: 8082
